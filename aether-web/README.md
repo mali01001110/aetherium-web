@@ -18,4 +18,4 @@ npm run dev
 - Images still point at Framer's CDN. Re-export with asset localisation,
   or replace the URLs, before relying on this offline.
 - `_dump.json` is the raw project tree; the exporter can re-run from it
-  without another export from Framer.
+  without another export.

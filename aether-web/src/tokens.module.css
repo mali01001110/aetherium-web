@@ -111,3 +111,19 @@
   letter-spacing: 0.13em;
   color: var(--color-starlight);
 }
+@media (min-width: 1920px) {
+  .text-planet-display { font-size: 128px; }
+  .text-cover-statement { font-size: 48px; }
+  .text-orbital-value { font-size: 32px; }
+  .text-field-notes { font-size: 19px; }
+  .text-telemetry { font-size: 12px; }
+  .text-micro-telemetry { font-size: 11px; }
+}
+@media (min-width: 2560px) {
+  .text-planet-display { font-size: 160px; }
+  .text-cover-statement { font-size: 60px; }
+  .text-orbital-value { font-size: 40px; }
+  .text-field-notes { font-size: 21px; }
+  .text-telemetry { font-size: 13px; }
+  .text-micro-telemetry { font-size: 12px; }
+}

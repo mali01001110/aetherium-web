@@ -1,0 +1,11 @@
+/* Scroll fade in/out: pairs with fadeSection.ts. */
+[data-fade-section] {
+  will-change: opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-fade-section] {
+    will-change: auto;
+    opacity: 1;
+  }
+}

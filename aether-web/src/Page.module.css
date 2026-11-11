@@ -1,4 +1,10 @@
 .desktop {
+  --content-max: 1344px;
+  --hero-max: 1150px;
+  --section-min: 900px;
+  --journey-gap: 384px;
+  --globe: 480px;
+  --globe-indy: 330px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,7 +22,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  height: 100vh;
+  height: 100svh;
   max-width: 100%;
   position: fixed;
   top: 0px;
@@ -87,7 +93,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 384px;
+  gap: clamp(160px, 20vh, 384px);
   width: 100%;
   height: fit-content;
   max-width: 100%;
@@ -256,9 +262,9 @@
   align-items: flex-start;
   padding: 48px 48px 48px 64px;
   width: 100%;
-  height: 900px;
+  min-height: clamp(840px, 62vh, 1000px);
   z-index: 1;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .fabre-chapter-layout {
@@ -269,7 +275,7 @@
   gap: 36px;
   width: 100%;
   flex: 1 1 0;
-  max-width: 1344px;
+  max-width: var(--content-max);
 }
 
 .fabre-chapter-index {
@@ -382,8 +388,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 480px;
-  height: 480px;
+  width: var(--globe);
+  height: var(--globe);
   border-radius: 50%;
   overflow: hidden;
   background-image: url("https://framerusercontent.com/images/P50h8FySTggMncHPskuaDkcFG0.png");
@@ -506,9 +512,9 @@
   align-items: flex-start;
   padding: 48px 48px 48px 64px;
   width: 100%;
-  height: 900px;
+  min-height: clamp(840px, 62vh, 1000px);
   z-index: 1;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .jaunes-chapter-layout {
@@ -519,7 +525,7 @@
   gap: 36px;
   width: 100%;
   flex: 1 1 0;
-  max-width: 1344px;
+  max-width: var(--content-max);
 }
 
 .jaunes-chapter-index {
@@ -588,8 +594,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 480px;
-  height: 480px;
+  width: var(--globe);
+  height: var(--globe);
   border-radius: 50%;
   overflow: hidden;
   background-image: url("https://framerusercontent.com/images/IQ8rOdoHyB7m2aRVtvFLWmZsorc.png");
@@ -756,9 +762,9 @@
   align-items: flex-start;
   padding: 48px 48px 48px 64px;
   width: 100%;
-  height: 900px;
+  min-height: clamp(840px, 62vh, 1000px);
   z-index: 1;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .devis-chapter-layout {
@@ -769,7 +775,7 @@
   gap: 36px;
   width: 100%;
   flex: 1 1 0;
-  max-width: 1344px;
+  max-width: var(--content-max);
 }
 
 .devis-chapter-index {
@@ -882,8 +888,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 480px;
-  height: 480px;
+  width: var(--globe);
+  height: var(--globe);
   border-radius: 50%;
   overflow: hidden;
   background-image: url("https://framerusercontent.com/images/VLecoRCeFGsWx3uukvfgBc7q8js.png");
@@ -1006,9 +1012,9 @@
   align-items: flex-start;
   padding: 48px 48px 48px 64px;
   width: 100%;
-  height: 900px;
+  min-height: clamp(840px, 62vh, 1000px);
   z-index: 1;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .indy-chapter-layout {
@@ -1019,7 +1025,7 @@
   gap: 36px;
   width: 100%;
   flex: 1 1 0;
-  max-width: 1344px;
+  max-width: var(--content-max);
 }
 
 .indy-chapter-index {
@@ -1280,7 +1286,7 @@
   }
 
   .celestial-journey {
-    gap: 288px;
+    gap: clamp(120px, 14vh, 288px);
   }
 
   .aetherium-the-blue-heart {
@@ -1315,7 +1321,7 @@
 
   .n-01-fabre {
     padding: 40px 32px 40px 53px;
-    height: 975px;
+    min-height: 975px;
   }
 
   .fabre-chapter-layout {
@@ -1374,7 +1380,7 @@
 
   .n-02-jaunes {
     padding: 40px 32px 40px 53px;
-    height: 975px;
+    min-height: 975px;
   }
 
   .jaunes-chapter-layout {
@@ -1433,7 +1439,7 @@
 
   .n-03-devis {
     padding: 40px 32px 40px 53px;
-    height: 975px;
+    min-height: 975px;
   }
 
   .devis-chapter-layout {
@@ -1492,7 +1498,7 @@
 
   .n-04-indy {
     padding: 40px 32px 40px 53px;
-    height: 975px;
+    min-height: 975px;
   }
 
   .indy-chapter-layout {
@@ -1570,7 +1576,7 @@
   }
 
   .celestial-journey {
-    gap: 192px;
+    gap: clamp(96px, 12vh, 192px);
   }
 
   .aetherium-the-blue-heart {
@@ -1617,7 +1623,7 @@
 
   .n-01-fabre {
     padding: 32px 24px 32px 24px;
-    height: 1100px;
+    min-height: 1100px;
   }
 
   .fabre-chapter-layout {
@@ -1676,7 +1682,7 @@
 
   .n-02-jaunes {
     padding: 32px 24px 32px 24px;
-    height: 1100px;
+    min-height: 1100px;
   }
 
   .jaunes-chapter-layout {
@@ -1735,7 +1741,7 @@
 
   .n-03-devis {
     padding: 32px 24px 32px 24px;
-    height: 1100px;
+    min-height: 1100px;
   }
 
   .devis-chapter-layout {
@@ -1794,7 +1800,7 @@
 
   .n-04-indy {
     padding: 32px 24px 32px 24px;
-    height: 1100px;
+    min-height: 1100px;
   }
 
   .indy-chapter-layout {
@@ -1942,7 +1948,7 @@
   align-items: stretch;
   align-self: center;
   width: 100%;
-  max-width: 1150px;
+  max-width: var(--hero-max);
   min-height: 0;
 }
 
@@ -2209,7 +2215,27 @@
   }
 }
 
+@media (max-width: 480px) {
+  .fabre-telemetry,
+  .jaunes-telemetry,
+  .devis-telemetry,
+  .indy-telemetry {
+    flex-wrap: wrap;
+  }
+  .fabre-telemetry > *,
+  .jaunes-telemetry > *,
+  .devis-telemetry > *,
+  .indy-telemetry > * {
+    flex: 1 1 44%;
+  }
+}
+
 @media (max-width: 360px) {
+  .aetherium {
+    white-space: normal;
+    font-size: clamp(2.1rem, 13vw, 3.2rem);
+  }
+
   .aetherium-the-blue-heart {
     padding-right: 18px;
     padding-left: 18px;
@@ -2225,7 +2251,7 @@
 .footer {
   position: relative;
   width: 100%;
-  max-width: 1150px;
+  max-width: var(--hero-max);
   padding: clamp(40px, 6vh, 80px) clamp(28px, 9vw, 140px);
   border-top: 1px solid rgba(147, 177, 210, 0.28);
   color: var(--color-starlight);
@@ -2329,4 +2355,22 @@
     align-items: flex-start;
     gap: 10px;
   }
+}
+
+@media (min-width: 1920px) {
+  .desktop { --content-max: 1680px; --hero-max: 1480px; --section-min: 1000px; --globe: 560px; --globe-indy: 400px; }
+  .aetherium { font-size: clamp(6rem, 12vw, 20rem); }
+  .blue-corona, .aetherium-blue-star { width: clamp(780px, 52vw, 1280px); height: clamp(780px, 52vw, 1280px); }
+  .fabre-orbital-scene, .jaunes-orbital-scene, .devis-orbital-scene, .indy-orbital-scene { height: 640px; }
+}
+
+@media (min-width: 2560px) {
+  .desktop { --content-max: 1920px; --hero-max: 1680px; --section-min: 1120px; --globe: 640px; --globe-indy: 460px; }
+  .aetherium { font-size: clamp(7rem, 12vw, 24rem); }
+  .blue-corona, .aetherium-blue-star { width: clamp(900px, 52vw, 1600px); height: clamp(900px, 52vw, 1600px); }
+  .fabre-orbital-scene, .jaunes-orbital-scene, .devis-orbital-scene, .indy-orbital-scene { height: 720px; }
+}
+
+@media (min-width: 3200px) {
+  .desktop { --content-max: 2200px; --hero-max: 1900px; --globe: 720px; --globe-indy: 520px; }
 }

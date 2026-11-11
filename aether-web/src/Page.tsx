@@ -5,16 +5,20 @@ import styles from "./Page.module.css"
 import "./theme.css"
 import "./reveal.css"
 import "./heroFade.css"
+import "./fadeSection.css"
 import { initReveal } from "./reveal"
 import { initHeroFade } from "./heroFade"
+import { initFadeSection } from "./fadeSection"
 
 export default function Page() {
   useEffect(() => {
     const cleanupReveal = initReveal()
     const cleanupFade = initHeroFade()
+    const cleanupFadeSection = initFadeSection()
     return () => {
       cleanupReveal()
       cleanupFade()
+      cleanupFadeSection()
     }
   }, [])
 
@@ -89,7 +93,7 @@ export default function Page() {
               <p className={cx(tokens["text-telemetry"], styles["fabre-orbital-classification"])}>{"AETHERIUM B / INNER SYSTEM"}</p>
             </div>
             <div className={styles["text"]}>
-              <div className={styles["fabre-field-notes"]}>
+              <div className={styles["fabre-field-notes"]} data-fade-section="">
                 <h2 className={cx(tokens["text-planet-display"], styles["fabre"])}>{"Fabre"}</h2>
                 <h3 className={cx(tokens["text-cover-statement"], styles["fabre-statement"])}>{"Where the ocean learned to glow."}</h3>
                 <p className={cx(tokens["text-field-notes"], styles["fabre-description"])}>{"An endless cobalt sea, threaded with living light. Beneath Fabre’s pearl-white storms, luminous reef forests follow the slow pulse of Aetherium across the water."}</p>
@@ -109,7 +113,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className={styles["fabre-telemetry"]}>
+            <div className={styles["fabre-telemetry"]} data-fade-section="">
               <div className={styles["orbital-period-measurement"]}>
                 <p className={cx(tokens["text-micro-telemetry"], styles["orbital-period"])}>{"ORBITAL PERIOD"}</p>
                 <p className={cx(tokens["text-orbital-value"], styles["orbital-period-value"])}>{"186 days"}</p>
@@ -142,7 +146,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              <div className={styles["jaunes-field-notes"]}>
+              <div className={styles["jaunes-field-notes"]} data-fade-section="">
                 <h2 className={cx(tokens["text-planet-display"], styles["jaunes"])}>{"Jaunes"}</h2>
                 <h3 className={cx(tokens["text-cover-statement"], styles["jaunes-statement"])}>{"A world without a still moment."}</h3>
                 <p className={cx(tokens["text-field-notes"], styles["jaunes-description"])}>{"Teal cloud rivers circle a world with no solid shore. On Jaunes, a single storm can outlive a civilisation, turning beneath rings of suspended ice and mineral dust."}</p>
@@ -152,7 +156,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className={styles["jaunes-telemetry"]}>
+            <div className={styles["jaunes-telemetry"]} data-fade-section="">
               <div className={styles["orbital-period-measurement2"]}>
                 <p className={cx(tokens["text-micro-telemetry"], styles["orbital-period2"])}>{"ORBITAL PERIOD"}</p>
                 <p className={cx(tokens["text-orbital-value"], styles["orbital-period-value2"])}>{"1,240 days"}</p>
@@ -175,7 +179,7 @@ export default function Page() {
               <p className={cx(tokens["text-telemetry"], styles["devis-orbital-classification"])}>{"AETHERIUM D / OUTER SYSTEM"}</p>
             </div>
             <div className={styles["text3"]}>
-              <div className={styles["devis-field-notes"]}>
+              <div className={styles["devis-field-notes"]} data-fade-section="">
                 <h2 className={cx(tokens["text-planet-display"], styles["devis"])}>{"Devis"}</h2>
                 <h3 className={cx(tokens["text-cover-statement"], styles["devis-statement"])}>{"Silence, written in ice."}</h3>
                 <p className={cx(tokens["text-field-notes"], styles["devis-description"])}>{"At the edge of the blue light lies Devis, a pale archive of the system’s first winter. Vast crystalline plains conceal a dark, warm ocean beneath forty kilometres of ice."}</p>
@@ -195,7 +199,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className={styles["devis-telemetry"]}>
+            <div className={styles["devis-telemetry"]} data-fade-section="">
               <div className={styles["orbital-period-measurement3"]}>
                 <p className={cx(tokens["text-micro-telemetry"], styles["orbital-period3"])}>{"ORBITAL PERIOD"}</p>
                 <p className={cx(tokens["text-orbital-value"], styles["orbital-period-value3"])}>{"3,860 days"}</p>
@@ -218,7 +222,7 @@ export default function Page() {
               <p className={cx(tokens["text-telemetry"], styles["indy-orbital-classification"])}>{"SATELLITE / OUTER SYSTEM"}</p>
             </div>
             <div className={styles["text4"]}>
-              <div className={styles["indy-field-notes"]}>
+              <div className={styles["indy-field-notes"]} data-fade-section="">
                 <h2 className={cx(tokens["text-planet-display"], styles["indy"])}>{"Indy"}</h2>
                 <h3 className={cx(tokens["text-cover-statement"], styles["indy-statement"])}>{"Small world. Endless wonder."}</h3>
                 <p className={cx(tokens["text-field-notes"], styles["indy-description"])}>{"Indy keeps a quiet watch over Devis. Silver impact basins hold ancient blue ice, and its slow, synchronised orbit always offers the same scarred face to the planet it calls home."}</p>
@@ -238,7 +242,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className={styles["indy-telemetry"]}>
+            <div className={styles["indy-telemetry"]} data-fade-section="">
               <div className={styles["orbital-period-measurement4"]}>
                 <p className={cx(tokens["text-micro-telemetry"], styles["orbital-period4"])}>{"ORBITAL PERIOD"}</p>
                 <p className={cx(tokens["text-orbital-value"], styles["orbital-period-value4"])}>{"27.6 days"}</p>
@@ -271,3 +275,4 @@ export default function Page() {
     </div>
   )
 }
+

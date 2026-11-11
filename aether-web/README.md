@@ -11,7 +11,7 @@ npm run dev
 
 - `src/` — your components, CSS modules and design tokens
 - `src/main.tsx` — entry point
-- `theme.css`, `tokens.module.css` — variables read from your Framer project
+- `theme.css`, `tokens.module.css` — variables read from your project
 
 ## Notes
 

@@ -1,6 +1,6 @@
 # Specific Teacher (copy)
 
-Exported from Framer by [Full Site Export](https://getfull.site).
+Exported from by [Full Site Export](https://getfull.site).
 
 ```bash
 npm install

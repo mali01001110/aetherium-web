@@ -1,4 +1,4 @@
-# Specific Teacher (copy)
+# Aetherium Project
 
 Exported from by [Full Site Export](https://getfull.site).
 

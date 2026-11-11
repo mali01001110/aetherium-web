@@ -1,0 +1,113 @@
+/* Generated from Framer text styles. */
+.text-cover-statement {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 1.12em;
+  letter-spacing: -0.04em;
+  color: var(--color-starlight);
+}
+@media (max-width: 1199px) {
+  .text-cover-statement {
+    font-size: 32px;
+    line-height: 1.12em;
+    letter-spacing: -0.04em;
+  }
+}
+@media (max-width: 809px) {
+  .text-cover-statement {
+    font-size: 30px;
+    line-height: 1.12em;
+    letter-spacing: -0.04em;
+  }
+}
+.text-field-notes {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.65em;
+  letter-spacing: 0.01em;
+  color: var(--color-starlight);
+}
+@media (max-width: 1199px) {
+  .text-field-notes {
+    font-size: 16px;
+    line-height: 1.65em;
+    letter-spacing: 0.01em;
+  }
+}
+@media (max-width: 809px) {
+  .text-field-notes {
+    font-size: 16px;
+    line-height: 1.65em;
+    letter-spacing: 0.01em;
+  }
+}
+.text-micro-telemetry {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4em;
+  letter-spacing: 0.13em;
+  color: var(--color-starlight);
+}
+.text-observation-note {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+  color: var(--color-starlight);
+}
+.text-orbital-value {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
+  color: var(--color-starlight);
+}
+@media (max-width: 1199px) {
+  .text-orbital-value {
+    font-size: 24px;
+    line-height: 1.1em;
+    letter-spacing: 0.02em;
+  }
+}
+@media (max-width: 809px) {
+  .text-orbital-value {
+    font-size: 20px;
+    line-height: 1.1em;
+    letter-spacing: 0.02em;
+  }
+}
+.text-planet-display {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 1.02em;
+  letter-spacing: -0.06em;
+  color: var(--color-starlight);
+}
+@media (max-width: 1199px) {
+  .text-planet-display {
+    font-size: 64px;
+    line-height: 1.02em;
+    letter-spacing: -0.06em;
+  }
+}
+@media (max-width: 809px) {
+  .text-planet-display {
+    font-size: 60px;
+    line-height: 1.02em;
+    letter-spacing: -0.06em;
+  }
+}
+.text-telemetry {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.4em;
+  letter-spacing: 0.13em;
+  color: var(--color-starlight);
+}

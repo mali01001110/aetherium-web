@@ -1,0 +1,10 @@
+/* Generated from Framer colour styles. */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+}
+:root {
+  --color-deep-space: #030914;
+  --color-starlight: #F4FAFF;
+}

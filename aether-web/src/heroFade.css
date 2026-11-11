@@ -1,0 +1,9 @@
+[data-hero-fade] {
+  will-change: opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-hero-fade] {
+    will-change: auto;
+  }
+}

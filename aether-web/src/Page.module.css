@@ -1,0 +1,2332 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  background-color: #030914;
+}
+
+.persistent-blue-hypergiant {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  background-color: var(--color-deep-space);
+}
+
+.distant-stars {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image:
+    radial-gradient(1px 1px at 8% 18%, rgba(181, 211, 245, 0.44) 50%, transparent 100%),
+    radial-gradient(1px 1px at 24% 72%, rgba(181, 211, 245, 0.36) 50%, transparent 100%),
+    radial-gradient(1px 1px at 41% 36%, rgba(181, 211, 245, 0.3) 50%, transparent 100%),
+    radial-gradient(1px 1px at 59% 16%, rgba(181, 211, 245, 0.38) 50%, transparent 100%),
+    radial-gradient(1px 1px at 78% 79%, rgba(181, 211, 245, 0.34) 50%, transparent 100%),
+    radial-gradient(1px 1px at 92% 43%, rgba(181, 211, 245, 0.42) 50%, transparent 100%);
+}
+
+.blue-corona {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 850px;
+  height: 850px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: radial-gradient(rgba(19, 121, 255, 0.28) 0%, rgba(0, 71, 210, 0.12) 45%, rgba(3, 9, 20, 0) 70%);
+}
+
+.aetherium-blue-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 850px;
+  height: 850px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/QX4Rl9odX2e2WXxSifkIwSTeP3w.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-readability-gradient {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-image: linear-gradient(90deg, rgba(3, 9, 20, 0.7) 0%, rgba(3, 9, 20, 0.36) 28%, rgba(3, 9, 20, 0) 60%);
+}
+
+.celestial-journey {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 384px;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.aetherium-the-blue-heart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 132px 48px 44px 48px;
+  width: 100%;
+  height: 900px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.cover-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  flex: 1 1 0;
+  max-width: 1344px;
+}
+
+.expedition-coordinates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.expedition-label {
+  width: fit-content;
+  height: fit-content;
+}
+
+.sector-coordinate {
+  width: fit-content;
+  height: fit-content;
+}
+
+.aetherium {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.stellar-breathing-space {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: stretch;
+  flex: 1 1 0;
+}
+
+.journey-introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.the-blue-heart-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 360px;
+  height: fit-content;
+}
+
+.the-blue-heart {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.system-introduction {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.begin-the-journey {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 12px 20px 12px 0px;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.explore-the-system {
+  width: fit-content;
+  height: fit-content;
+}
+
+.blue-hypergiant-annotation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  width: 290px;
+  height: fit-content;
+}
+
+.stellar-leader-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 132px;
+  height: auto;
+  transform: rotate(-35deg);
+  position: relative;
+}
+
+.star-designation {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.star-classification {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.cover-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 36px 0px 0px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.system-body-count {
+  width: fit-content;
+  height: fit-content;
+}
+
+.fictional-universe-note {
+  width: fit-content;
+  height: fit-content;
+}
+
+.n-01-fabre {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px 48px 48px 64px;
+  width: 100%;
+  height: 900px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fabre-chapter-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 36px;
+  width: 100%;
+  flex: 1 1 0;
+  max-width: 1344px;
+}
+
+.fabre-chapter-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 20px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 0px 0px 1px 0px;
+}
+
+.fabre-object-number {
+  width: fit-content;
+  height: fit-content;
+}
+
+.fabre-orbital-classification {
+  width: fit-content;
+  height: fit-content;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  flex: 1 1 0;
+}
+
+.fabre-field-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 0.86 1 0;
+  height: fit-content;
+}
+
+.fabre {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.fabre-statement {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.fabre-description {
+  align-self: stretch;
+  height: fit-content;
+  max-width: 420px;
+  opacity: 0.85;
+}
+
+.fabre-observation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 0px 0px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.fabre-observation-note {
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.fabre-orbital-scene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1.14 1 0;
+  height: 570px;
+  position: relative;
+}
+
+.fabre-orbital-ellipse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 290px;
+  position: absolute;
+  top: 130px;
+  left: -5px;
+  transform: rotate(-26deg);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.30);
+  border-width: 1px;
+}
+
+.fabre-globe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/P50h8FySTggMncHPskuaDkcFG0.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.fabre-white-arrow-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  width: 190px;
+  height: fit-content;
+  position: absolute;
+  top: 34px;
+  right: 0px;
+}
+
+.fabre-celestial-label {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.fabre-thin-white-leader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 135px;
+  height: 1px;
+  transform: rotate(130deg);
+  position: relative;
+  background-color: rgba(244,250,255,0.8);
+}
+
+.fabre-telemetry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 0px 4px 0px;
+  align-self: stretch;
+  height: fit-content;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 1px 0px 0px 0px;
+}
+
+.orbital-period-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.orbital-period {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.orbital-period-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.mean-temperature-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.mean-temperature {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.mean-temperature-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.distance-to-star-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.distance-to-star {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.distance-to-star-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.n-02-jaunes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px 48px 48px 64px;
+  width: 100%;
+  height: 900px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.jaunes-chapter-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 36px;
+  width: 100%;
+  flex: 1 1 0;
+  max-width: 1344px;
+}
+
+.jaunes-chapter-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 20px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 0px 0px 1px 0px;
+}
+
+.jaunes-object-number {
+  width: fit-content;
+  height: fit-content;
+}
+
+.jaunes-orbital-classification {
+  width: fit-content;
+  height: fit-content;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  flex: 1 1 0;
+}
+
+.jaunes-orbital-scene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1.14 1 0;
+  height: 570px;
+  position: relative;
+}
+
+.jaunes-orbital-ellipse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 290px;
+  position: absolute;
+  top: 130px;
+  left: -5px;
+  transform: rotate(24deg);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.30);
+  border-width: 1px;
+}
+
+.jaunes-globe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/IQ8rOdoHyB7m2aRVtvFLWmZsorc.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.jaunes-white-arrow-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  width: 190px;
+  height: fit-content;
+  position: absolute;
+  top: 34px;
+  right: 0px;
+}
+
+.jaunes-celestial-label {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.jaunes-thin-white-leader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 135px;
+  height: 1px;
+  transform: rotate(130deg);
+  position: relative;
+  background-color: rgba(244,250,255,0.8);
+}
+
+.jaunes-field-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 0.86 1 0;
+  height: fit-content;
+}
+
+.jaunes {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.jaunes-statement {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.jaunes-description {
+  align-self: stretch;
+  height: fit-content;
+  max-width: 420px;
+  opacity: 0.85;
+}
+
+.jaunes-observation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 0px 0px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.jaunes-observation-note {
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.jaunes-telemetry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 0px 4px 0px;
+  align-self: stretch;
+  height: fit-content;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 1px 0px 0px 0px;
+}
+
+.orbital-period-measurement2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.orbital-period2 {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.orbital-period-value2 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.wind-velocity-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.wind-velocity {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.wind-velocity-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.distance-to-star-measurement2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.distance-to-star2 {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.distance-to-star-value2 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.n-03-devis {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px 48px 48px 64px;
+  width: 100%;
+  height: 900px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.devis-chapter-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 36px;
+  width: 100%;
+  flex: 1 1 0;
+  max-width: 1344px;
+}
+
+.devis-chapter-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 20px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 0px 0px 1px 0px;
+}
+
+.devis-object-number {
+  width: fit-content;
+  height: fit-content;
+}
+
+.devis-orbital-classification {
+  width: fit-content;
+  height: fit-content;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  flex: 1 1 0;
+}
+
+.devis-field-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 0.86 1 0;
+  height: fit-content;
+}
+
+.devis {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.devis-statement {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.devis-description {
+  align-self: stretch;
+  height: fit-content;
+  max-width: 420px;
+  opacity: 0.85;
+}
+
+.devis-observation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 0px 0px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.devis-observation-note {
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.devis-orbital-scene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1.14 1 0;
+  height: 570px;
+  position: relative;
+}
+
+.devis-orbital-ellipse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 290px;
+  position: absolute;
+  top: 130px;
+  left: -5px;
+  transform: rotate(-12deg);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.30);
+  border-width: 1px;
+}
+
+.devis-globe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/VLecoRCeFGsWx3uukvfgBc7q8js.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.devis-white-arrow-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  width: 190px;
+  height: fit-content;
+  position: absolute;
+  top: 34px;
+  right: 0px;
+}
+
+.devis-celestial-label {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.devis-thin-white-leader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 135px;
+  height: 1px;
+  transform: rotate(130deg);
+  position: relative;
+  background-color: rgba(244,250,255,0.8);
+}
+
+.devis-telemetry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 0px 4px 0px;
+  align-self: stretch;
+  height: fit-content;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 1px 0px 0px 0px;
+}
+
+.orbital-period-measurement3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.orbital-period3 {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.orbital-period-value3 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.surface-temperature-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.surface-temperature {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.surface-temperature-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.distance-to-star-measurement3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.distance-to-star3 {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.distance-to-star-value3 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.n-04-indy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px 48px 48px 64px;
+  width: 100%;
+  height: 900px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.indy-chapter-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 36px;
+  width: 100%;
+  flex: 1 1 0;
+  max-width: 1344px;
+}
+
+.indy-chapter-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 20px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 0px 0px 1px 0px;
+}
+
+.indy-object-number {
+  width: fit-content;
+  height: fit-content;
+}
+
+.indy-orbital-classification {
+  width: fit-content;
+  height: fit-content;
+}
+
+.text4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  flex: 1 1 0;
+}
+
+.indy-field-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 0.86 1 0;
+  height: fit-content;
+}
+
+.indy {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.indy-statement {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.indy-description {
+  align-self: stretch;
+  height: fit-content;
+  max-width: 420px;
+  opacity: 0.85;
+}
+
+.indy-observation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 0px 0px 0px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.indy-observation-note {
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.indy-orbital-scene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1.14 1 0;
+  height: 570px;
+  position: relative;
+}
+
+.indy-orbital-ellipse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 290px;
+  position: absolute;
+  top: 130px;
+  left: -5px;
+  transform: rotate(-30deg);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.30);
+  border-width: 1px;
+}
+
+.indy-globe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/SACF0BHuBWZsHTz9nK7lkiEXA.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.indy-white-arrow-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  width: 190px;
+  height: fit-content;
+  position: absolute;
+  top: 86px;
+  right: 0px;
+}
+
+.indy-celestial-label {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.indy-thin-white-leader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 135px;
+  height: 1px;
+  transform: rotate(130deg);
+  position: relative;
+  background-color: rgba(244,250,255,0.8);
+}
+
+.indy-telemetry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 0px 4px 0px;
+  align-self: stretch;
+  height: fit-content;
+  border-style: solid;
+  border-color: rgba(244,250,255,0.28);
+  border-width: 1px 0px 0px 0px;
+}
+
+.orbital-period-measurement4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.orbital-period4 {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.orbital-period-value4 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.mean-radius-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.mean-radius {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.mean-radius-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.parent-planet-measurement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.parent-planet {
+  align-self: stretch;
+  height: fit-content;
+  opacity: 0.65;
+}
+
+.parent-planet-value {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.n-05-orbital-atlas {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+  z-index: 1;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .blue-corona {
+    width: 690px;
+    height: 690px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .aetherium-blue-star {
+    width: 690px;
+    height: 690px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .celestial-journey {
+    gap: 288px;
+  }
+
+  .aetherium-the-blue-heart {
+    padding: 128px 32px 40px 32px;
+  }
+
+  .expedition-coordinates {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .journey-introduction {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .the-blue-heart-introduction {
+    width: 340px;
+  }
+
+  .blue-hypergiant-annotation {
+    width: 230px;
+  }
+
+  .cover-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .n-01-fabre {
+    padding: 40px 32px 40px 53px;
+    height: 975px;
+  }
+
+  .fabre-chapter-layout {
+    gap: 20px;
+  }
+
+  .fabre-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .fabre-field-notes {
+    gap: 20px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .fabre-orbital-scene {
+    align-self: stretch;
+    height: 400px;
+    flex: initial;
+  }
+
+  .fabre-orbital-ellipse {
+    height: 200px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .fabre-globe {
+    width: 380px;
+    height: 380px;
+  }
+
+  .fabre-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .fabre-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+
+  .n-02-jaunes {
+    padding: 40px 32px 40px 53px;
+    height: 975px;
+  }
+
+  .jaunes-chapter-layout {
+    gap: 20px;
+  }
+
+  .jaunes-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .jaunes-orbital-scene {
+    align-self: stretch;
+    height: 400px;
+    flex: initial;
+  }
+
+  .jaunes-orbital-ellipse {
+    height: 200px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .jaunes-globe {
+    width: 380px;
+    height: 380px;
+  }
+
+  .jaunes-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .jaunes-field-notes {
+    gap: 20px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .jaunes-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+
+  .n-03-devis {
+    padding: 40px 32px 40px 53px;
+    height: 975px;
+  }
+
+  .devis-chapter-layout {
+    gap: 20px;
+  }
+
+  .devis-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .devis-field-notes {
+    gap: 20px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .devis-orbital-scene {
+    align-self: stretch;
+    height: 400px;
+    flex: initial;
+  }
+
+  .devis-orbital-ellipse {
+    height: 200px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .devis-globe {
+    width: 380px;
+    height: 380px;
+  }
+
+  .devis-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .devis-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+
+  .n-04-indy {
+    padding: 40px 32px 40px 53px;
+    height: 975px;
+  }
+
+  .indy-chapter-layout {
+    gap: 20px;
+  }
+
+  .indy-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text4 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .indy-field-notes {
+    gap: 20px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .indy-orbital-scene {
+    align-self: stretch;
+    height: 400px;
+    flex: initial;
+  }
+
+  .indy-orbital-ellipse {
+    height: 200px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .indy-globe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .indy-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .indy-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .blue-corona {
+    width: 390px;
+    height: 390px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .aetherium-blue-star {
+    width: 390px;
+    height: 390px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .celestial-journey {
+    gap: 192px;
+  }
+
+  .aetherium-the-blue-heart {
+    padding: 112px 24px 30px 24px;
+    height: 850px;
+  }
+
+  .expedition-coordinates {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .sector-coordinate {
+    display: none;
+  }
+
+  .journey-introduction {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .the-blue-heart-introduction {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .blue-hypergiant-annotation {
+    display: none;
+    width: 230px;
+  }
+
+  .cover-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .fictional-universe-note {
+    display: none;
+  }
+
+  .n-01-fabre {
+    padding: 32px 24px 32px 24px;
+    height: 1100px;
+  }
+
+  .fabre-chapter-layout {
+    gap: 24px;
+  }
+
+  .fabre-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .fabre-field-notes {
+    gap: 16px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .fabre-orbital-scene {
+    align-self: stretch;
+    height: 330px;
+    flex: initial;
+  }
+
+  .fabre-orbital-ellipse {
+    height: 160px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .fabre-globe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fabre-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .fabre-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+
+  .n-02-jaunes {
+    padding: 32px 24px 32px 24px;
+    height: 1100px;
+  }
+
+  .jaunes-chapter-layout {
+    gap: 24px;
+  }
+
+  .jaunes-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .jaunes-orbital-scene {
+    align-self: stretch;
+    height: 330px;
+    flex: initial;
+  }
+
+  .jaunes-orbital-ellipse {
+    height: 160px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .jaunes-globe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .jaunes-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .jaunes-field-notes {
+    gap: 16px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .jaunes-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+
+  .n-03-devis {
+    padding: 32px 24px 32px 24px;
+    height: 1100px;
+  }
+
+  .devis-chapter-layout {
+    gap: 24px;
+  }
+
+  .devis-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .devis-field-notes {
+    gap: 16px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .devis-orbital-scene {
+    align-self: stretch;
+    height: 330px;
+    flex: initial;
+  }
+
+  .devis-orbital-ellipse {
+    height: 160px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .devis-globe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .devis-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .devis-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+
+  .n-04-indy {
+    padding: 32px 24px 32px 24px;
+    height: 1100px;
+  }
+
+  .indy-chapter-layout {
+    gap: 24px;
+  }
+
+  .indy-chapter-index {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0px 0px 16px 0px;
+    overflow: initial;
+  }
+
+  .text4 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .indy-field-notes {
+    gap: 16px;
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .indy-orbital-scene {
+    align-self: stretch;
+    height: 330px;
+    flex: initial;
+  }
+
+  .indy-orbital-ellipse {
+    height: 160px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .indy-globe {
+    width: 240px;
+    height: 240px;
+  }
+
+  .indy-white-arrow-label {
+    width: 150px;
+    position: initial;
+    top: initial;
+    right: initial;
+  }
+
+  .indy-telemetry {
+    gap: 12px;
+    padding: 20px 0px 4px 0px;
+  }
+}
+
+.aetherium-the-blue-heart {
+  box-sizing: border-box;
+  position: relative;
+  align-items: stretch;
+  height: auto;
+  min-height: 100svh;
+  padding: 20px clamp(28px, 9vw, 93px) clamp(120px, 15vh, 200px);
+}
+
+.hero-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 34px;
+  margin-bottom: 44px;
+  transform: translateY(-5px);
+  color: var(--color-starlight);
+  font-family: "Orbitron", sans-serif;
+}
+
+.hero-brand,
+.hero-nav,
+.signal-status {
+  display: flex;
+  align-items: center;
+}
+
+.hero-brand {
+  gap: 12px;
+  width: fit-content;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.hero-brand svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+}
+
+.hero-nav {
+  justify-content: center;
+  gap: 28px;
+}
+
+.hero-nav a,
+.signal-status {
+  color: rgba(232, 241, 252, 0.88);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.hero-nav a {
+  transition: color 180ms ease;
+}
+
+.hero-nav a:hover,
+.hero-brand:hover {
+  color: #62caff;
+}
+
+.signal-status {
+  justify-self: end;
+  gap: 8px;
+  margin: 0;
+  color: #91a7bd;
+}
+
+.signal-status span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #5cc6e8;
+  box-shadow: 0 0 10px rgba(92, 198, 232, 0.75);
+}
+
+.cover-content {
+  align-items: stretch;
+  align-self: center;
+  width: 100%;
+  max-width: 1150px;
+  min-height: 0;
+}
+
+.expedition-coordinates {
+  align-items: center;
+  margin-bottom: 18px;
+  overflow: visible;
+}
+
+.expedition-label,
+.sector-coordinate {
+  margin: 0;
+  color: #9eb4ca;
+  font-size: 9px;
+  letter-spacing: 0.11em;
+}
+
+.aetherium {
+  margin: 0;
+  color: var(--color-starlight);
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(5rem, 14.5vw, 14rem);
+  font-weight: 500;
+  line-height: 0.82;
+  letter-spacing: -0.06em;
+  white-space: nowrap;
+}
+
+.stellar-breathing-space {
+  min-height: clamp(90px, 14vh, 200px);
+}
+
+.journey-introduction {
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.the-blue-heart-introduction {
+  gap: 12px;
+  width: 360px;
+}
+
+.the-blue-heart {
+  margin: 0;
+  max-width: 440px;
+  font-size: clamp(32px, 3.5vw, 52px);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.system-introduction {
+  margin: 0;
+  color: #a7bed5;
+  font-size: 14px;
+  line-height: 1.52;
+  letter-spacing: 0;
+}
+
+.begin-the-journey {
+  align-items: center;
+  gap: 15px;
+  margin-top: 5px;
+  padding: 7px 0;
+  color: var(--color-starlight);
+  text-decoration: none;
+}
+
+.begin-the-journey:hover {
+  color: #62caff;
+}
+
+.explore-the-system {
+  margin: 0;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+
+.begin-the-journey svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.2;
+}
+
+.blue-hypergiant-annotation {
+  width: 220px;
+  gap: 6px;
+  padding: 8px;
+}
+
+.stellar-leader-line {
+  width: 132px;
+}
+
+.star-designation,
+.star-classification {
+  margin: 0;
+}
+
+.cover-index {
+  flex-shrink: 0;
+  padding-top: 24px;
+}
+
+.system-body-count,
+.fictional-universe-note {
+  margin: 0;
+  color: #91a7bd;
+  font-size: 8px;
+  letter-spacing: 0.11em;
+}
+
+.blue-corona,
+.aetherium-blue-star {
+  top: 60px;
+  right: -40px;
+  width: clamp(640px, 56vw, 920px);
+  height: clamp(640px, 56vw, 920px);
+}
+
+.aetherium-blue-star {
+  mix-blend-mode: screen;
+}
+
+.star-status-badge {
+  position: fixed;
+  right: 12px;
+  bottom: 10px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 12px 7px 8px;
+  border: 1px solid rgba(147, 177, 210, 0.28);
+  border-radius: 999px;
+  background: rgba(3, 9, 20, 0.78);
+  color: #e8f1fc;
+  font-family: "Space Mono", sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  backdrop-filter: blur(12px);
+}
+
+.star-status-orb {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-image: url("https://framerusercontent.com/images/QX4Rl9odX2e2WXxSifkIwSTeP3w.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 12px rgba(0, 116, 255, 0.65);
+}
+
+@media (max-width: 1199px) {
+  .aetherium-the-blue-heart {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .aetherium {
+    font-size: clamp(5rem, 14.5vw, 11rem);
+  }
+
+  .stellar-breathing-space {
+    min-height: clamp(58px, 10vh, 120px);
+  }
+
+  .blue-corona,
+  .aetherium-blue-star {
+    right: -50px;
+    width: clamp(560px, 62vw, 700px);
+    height: clamp(560px, 62vw, 700px);
+  }
+}
+
+@media (max-width: 809px) {
+  .aetherium-the-blue-heart {
+    height: auto;
+    min-height: 100svh;
+    padding: 16px 24px 26px;
+  }
+
+  .hero-header {
+    grid-template-columns: 1fr auto;
+    margin-bottom: 28px;
+  }
+
+  .hero-brand {
+    gap: 8px;
+    font-size: 11px;
+  }
+
+  .hero-nav {
+    display: none;
+  }
+
+  .signal-status {
+    font-size: 8px;
+  }
+
+  .expedition-coordinates {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .expedition-label,
+  .sector-coordinate {
+    font-size: 8px;
+  }
+
+  .aetherium {
+    font-size: clamp(2.5rem, 13vw, 6rem);
+    letter-spacing: -0.1em;
+  }
+
+  .stellar-breathing-space {
+    min-height: clamp(56px, 10svh, 100px);
+  }
+
+  .journey-introduction {
+    align-items: flex-start;
+  }
+
+  .the-blue-heart-introduction {
+    width: min(100%, 340px);
+  }
+
+  .the-blue-heart {
+    max-width: 280px;
+    font-size: 27px;
+  }
+
+  .system-introduction {
+    max-width: 330px;
+    font-size: 13px;
+  }
+
+  .blue-hypergiant-annotation,
+  .fictional-universe-note {
+    display: none;
+  }
+
+  .cover-index {
+    padding-top: 24px;
+  }
+
+  .blue-corona,
+  .aetherium-blue-star {
+    top: 65px;
+    right: -165px;
+    width: 480px;
+    height: 480px;
+  }
+
+  .star-status-badge {
+    right: 10px;
+    bottom: 10px;
+    padding: 6px 9px 6px 7px;
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 360px) {
+  .aetherium-the-blue-heart {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .expedition-coordinates {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+  }
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  max-width: 1150px;
+  padding: clamp(40px, 6vh, 80px) clamp(28px, 9vw, 140px);
+  border-top: 1px solid rgba(147, 177, 210, 0.28);
+  color: var(--color-starlight);
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 34px;
+}
+
+.footer-headline {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(26px, 3.5vw, 38px);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  color: var(--color-starlight);
+}
+
+.footer-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border: 1px solid rgba(147, 177, 210, 0.28);
+  border-radius: 999px;
+  color: var(--color-starlight);
+  font-family: "Space Mono", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background: rgba(3, 9, 20, 0.45);
+  backdrop-filter: blur(8px);
+  transition: border-color 180ms ease, color 180ms ease, background 180ms ease;
+}
+
+.footer-cta:hover {
+  border-color: #62caff;
+  color: #62caff;
+  background: rgba(3, 9, 20, 0.75);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-copyright,
+.footer-transmission {
+  margin: 0;
+  font-family: "Space Mono", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+}
+
+.footer-copyright {
+  color: rgba(244, 250, 255, 0.55);
+}
+
+.footer-transmission {
+  color: var(--color-starlight);
+  text-decoration: none;
+}
+
+.footer-transmission:hover {
+  color: #62caff;
+}
+
+@media (max-width: 1199px) {
+  .footer {
+    padding: clamp(32px, 5vh, 60px) 32px;
+  }
+
+  .footer-top {
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 809px) {
+  .footer {
+    padding: 28px 24px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 26px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

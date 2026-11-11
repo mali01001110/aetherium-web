@@ -1,7 +1,5 @@
 # Aetherium Project
 
-Exported from by [Full Site Export](https://getfull.site).
-
 ```bash
 npm install
 npm run dev
